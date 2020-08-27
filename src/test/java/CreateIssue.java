@@ -6,8 +6,8 @@ import pages.LoginPage;
 
 public class CreateIssue {
 
-  LoginPage loginPage;
-  CreateIssuePage createIssue;
+  LoginPage loginPage = null;
+  CreateIssuePage createIssue = null;
 
   @BeforeMethod
   public void setUp() {

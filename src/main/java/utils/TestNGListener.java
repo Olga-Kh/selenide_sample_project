@@ -1,17 +1,8 @@
 package utils;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 
 public class TestNGListener implements ITestListener {
 
@@ -22,7 +13,7 @@ public class TestNGListener implements ITestListener {
 
   @Override
   public void onTestSuccess(ITestResult result) {
-    System.out.println("Our test was successful!");
+    System.out.println("Our test passed successfully!");
   }
 
   @Override

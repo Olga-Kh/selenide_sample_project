@@ -6,8 +6,8 @@ import pages.ViewIssuePage;
 
 public class ViewIssue {
 
-  LoginPage loginPage;
-  ViewIssuePage viewIssue;
+  LoginPage loginPage = null;
+  ViewIssuePage viewIssue = null;
 
   @BeforeMethod
   public void setUp() {

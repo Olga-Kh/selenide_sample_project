@@ -7,7 +7,7 @@ import pages.LoginPage;
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class LoginToJiraTest {
-  LoginPage loginPage;
+  LoginPage loginPage = null;
 
   @BeforeMethod
   public void setUp() {
