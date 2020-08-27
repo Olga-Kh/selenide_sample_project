@@ -3,7 +3,7 @@
 
         <test name="Sample Test">
             <classes>
-                <class name="SampleSelenideTest"/>
+                <class name="LoginToJiraTest"/>
             </classes>
         </test>
 
