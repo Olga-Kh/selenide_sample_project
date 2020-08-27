@@ -30,9 +30,4 @@ public class ViewIssue {
     viewIssue.isIssueTypeDisplayed();
     viewIssue.isTicketNumberInUrl();
   }
-
-  @AfterMethod
-  public void tearDown() {
-    driver.quit();
-  }
 }
